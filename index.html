@@ -14,17 +14,35 @@
 
     <header>
 
-        <a href="./index.html"><img src="./assets/logo.jpg" alt="logo-de-la-empresa" class="logocabecera"></a>
+       
 
-        <nav>
-            <ul class="menudesordenado">
-                <li class="menu"><a href="./index.html">Inicio</a></li>
-                <li class=" menu"><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li class=" menu"><a href="./pages/faq.html">FAQ</a></li>
-                <li class=" menu"><a href="./pages/plazofijo.html">Plazo Fijo</a></li>
-                <li class=" menu"><a href="./pages/prestamopersonal.html">Préstamos</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="./index.html"><img src="./assets/logo.jpg" alt="logo-de-la-empresa" class="logocabecera"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/faq.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/plazofijo.html" tabindex="-1">Plazo Fijo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/prestamopersonal.html" tabindex="-1">Prestamos Personales</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <h1>Préstamos Personales y oportunidades de inversión:¡Construye y crece con nosotros!</h1>
@@ -35,34 +53,36 @@
             <img src="assets\joven-cafe.jpg" alt="foto-joven" class="fotocarrusel">
             <img src="assets/auto2.jpg" alt="foto-auto" class="fotocarrusel">
         </section>
-        <div class="container-fluid ">
-        <section id="inicio-prestamos">
-            <h2 class="titulointroprod">Préstamos Personales a tu alcance</h2>
-            <p class="parrafointroprod">Somos tu aliado financiero para lograr tus metas y sueños. Ya sea que
+        <div class="tarjetas-inicio">
+        <div class="card" style="width: 26rem;">
+            <img src="assets/autos.jpg" class="card-img-top" alt="foto-auto2">
+            <div class="card-body">
+              <h5 class="card-title">Préstamos Personales a tu alcance</h5>
+              <p class="card-text">Somos tu aliado financiero para lograr tus metas y sueños. Ya sea que
                 necesites financiamiento para un proyecto personal, un viaje especial o consolidar deudas, nuestros
                 préstamos personales están diseñados pensando en ti. Te ofrecemos opciones flexibles y plazos
                 cómodos para
                 que puedas elegir la solución que se ajuste a tus necesidades. Nuestro compromiso es brindarte una
                 experiencia rápida y sencilla, sin complicaciones innecesarias. Descubre cómo nuestros préstamos
                 pueden
-                ayudarte a alcanzar tus objetivos financieros y dar el primer paso hacia un futuro más sólido.
-            </p>
-            <img src="assets/autos.jpg" alt="foto-auto2" class="fotoseccion-prod">
-        </section>
-        </div>
-        <div class="container-fluid">
-        <section id="inicio-pf">
-            <h2 class="titulointroprod">Descubre Nuestras Opciones de Inversión</h2>
-            <p class="parrafointroprod">Si estás buscando una forma confiable y segura de hacer crecer tu dinero, has llegado al lugar
+                ayudarte a alcanzar tus objetivos financieros y dar el primer paso hacia un futuro más sólido.</p>
+              <a href="#" class="btn btn-primary">Ver Préstamos Personales</a>
+            </div>
+          </div>
+        <div class="card" style="width: 26rem;">
+            <img src="assets/cumple154.jpg" class="card-img-top" alt="foto-cumpleaños4">
+            <div class="card-body">
+              <h5 class="card-title">Descubre Nuestras Opciones de Inversión</h5>
+              <p class="card-text">Si estás buscando una forma confiable y segura de hacer crecer tu dinero, has llegado al lugar
                 adecuado. En Coderbank, entendemos la importancia de invertir de manera inteligente. Nuestras
                 oportunidades de inversión a plazo fijo te ofrecen un camino hacia el crecimiento financiero
                 predecible. Con una trayectoria sólida y una reputación construida en la excelencia, te
                 brindamos la oportunidad de invertir en nuestro éxito mutuo. Ya sea que estés planeando a corto
                 o largo plazo, nuestras opciones de plazo fijo están diseñadas para proporcionarte rendimientos
-                confiables. Únete a nosotros en el viaje hacia un futuro financiero más brillante con Coderbank
-            </p>
-            <img src="assets/cumple154.jpg" alt="foto-cumpleaños4" class="fotoseccion-prod">
-        </section>
+                confiables. Únete a nosotros en el viaje hacia un futuro financiero más brillante con Coderbank</p>
+              <a href="./pages/plazofijo.html" class="btn btn-primary">Ver Plazo Fijo</a>
+            </div>
+          </div>
         </div>
     </main>
     <footer>
@@ -85,7 +105,7 @@
         <img src="./assets/twitterlogo.png" alt="logo-twitter" id=logo-twitter class=logo-redes></img>
     </div>
     </footer>
-    <script src=".js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 
 </body>
 

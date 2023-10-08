@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coderbank - Plazo fijo</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
     <link rel="stylesheet" href="../css/stylesheet.css">
     <link rel="shortcut icon" href="../assets/logo.jpg">
 </head>
@@ -13,17 +13,35 @@
 <body>
     <header>
 
-        <a href="../index.html"><img src="../assets/logo.jpg" alt="logo-de-la-empresa" class="logocabecera"></a>
+        
 
-        <nav>
-            <ul class="menudesordenado">
-                <li class=" menu"><a href="../index.html">Inicio</a></li>
-                <li class=" menu"><a href="./nosotros.html">Nosotros</a></li>
-                <li class=" menu"><a href="./faq.html">FAQ</a></li>
-                <li class=" menu"><a href="./plazofijo.html">Plazo Fijo</a></li>
-                <li class=" menu"><a href="./prestamopersonal.html">Préstamos</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="../index.html"><img src="../assets/logo.jpg" alt="logo-de-la-empresa" class="logocabecera"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./faq.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./plazofijo.html" tabindex="-1">Plazo Fijo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./prestamopersonal.html" tabindex="-1">Prestamos Personales</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <h1>
@@ -42,36 +60,35 @@
             </p>
             <img src="../assets/joven-computadora.jpg" alt="joven-invirtiendo" class="imagenintroprod">
         </section>
-        <div id="grid-caracter-pf">
-            <section>
-                <h2 id="titulo-pf-pesos" class="titulo-caracter-pf">
-                    Plazo Fijo en Pesos
-                </h2>
-                <p id="p-pf-pesos" class="p-pf">
-                    Invertí tus pesos y recibí un interés por el plazo de inversión.
-                    ¡Mientrás más invertís, más recibis!
-                </p>
-            </section>
-            <section>
-                <h2 id="titulo-pf-me" class="titulo-caracter-pf">
-                    Plazo Fijo en Dolares y Euros
-                </h2>
-                <p id="p-pf-me" class="p-pf">
-                    ¿Querés cubrirte de una posible devaluación?
-                    ¡Podes invertir tus Euros y tus Dólares con nosotros!
-                </p>
-            </section>
-            <section>
-                <h2 id="titulo-pf-uva" class="titulo-caracter-pf">
-                    Plazo Fijo UVA
-                </h2>
-                <p id="p-pf-uva" class="p-pf">
-                    ¿Estás cansado de tanta inflación?
-                    ¡Con los plazo fijo en UVA vas a recibir tus pesos ajustado por inflación y el interés por el plazo
-                    invertido!
-                </p>
-            </section>
-        </div>
+
+
+        <div class="card-group">
+            <div class="card">
+              <img src="../assets/cumple153.jpg" class="card-img-top" alt="cumpleaños-feliz">
+              <div class="card-body">
+                <h5 class="card-title">Plazo Fijo en Pesos</h5>
+                <p class="card-text">Invertí tus pesos y recibí un interés por el plazo de inversión.
+                    ¡Mientrás más invertís, más recibis!</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../assets/auto2.jpg" class="card-img-top" alt="automoviles">
+              <div class="card-body">
+                <h5 class="card-title">Plazo Fijo en Dolares y Euros</h5>
+                <p class="card-text">¿Querés cubrirte de una posible devaluación?
+                    ¡Podes invertir tus Euros y tus Dólares con nosotros!</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../assets/joven-cafe.jpg" class="card-img-top" alt="joven-inversor">
+              <div class="card-body">
+                <h5 class="card-title">¿Estás cansado de tanta inflación?</h5>
+                <p class="card-text">¡Con los plazo fijo en UVA vas a recibir tus pesos ajustado por inflación y el interés por el plazo
+                    invertido!</p>
+              </div>
+            </div>
+          </div>
+
         <section class="caso">
             <h2>
                 ¡Caso de éxtito!
@@ -166,7 +183,7 @@
         <img src="../assets/twitterlogo.png" alt="logo-twitter" id=logo-twitter class=logo-redes></img>
 
     </footer>
-    <script src=".js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
 </body>
 
