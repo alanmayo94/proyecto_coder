@@ -1,0 +1,33 @@
+footer {
+    background-color: #fcfbfb;
+    color: rgb(41, 40, 40);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 1px solid #555;
+  
+    #legal {
+      font-size: 15px;
+    }
+  
+    #contacto a {
+      color: white;
+    }
+  
+    .logo-redes {
+      width: 28px;
+      margin: 0 5px;
+    }
+  
+    .logo-redes-container {
+      display: inline;
+      img {
+        margin-right: 5px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }

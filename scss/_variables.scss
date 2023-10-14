@@ -1,0 +1,89 @@
+$body-font-size: 16px;
+$body-font-family: 'Times New Roman', Times, serif;
+$body-font-weight: bold;
+$body-color: black;
+$body-background-color: rgb(252, 248, 248);
+
+$red-dark: darkred;
+$gray-light: rgb(143, 142, 142);
+
+$menu-transition: 0.5s;
+$menu-padding: 5px;
+
+$nosotros-border: 1px solid rgb(85, 85, 85);
+$nosotros-border-radius: 10%;
+$nosotros-background-color: rgb(241, 241, 241);
+$nosotros-margin: 10px;
+
+$nosotros1-margin-left: 75px;
+$nosotros1-margin-right: 100px;
+
+$nosotros2-margin-right: 75px;
+$nosotros2-margin-left: 100px;
+
+$nosotros3-border: 1px solid rgb(85, 85, 85);
+$nosotros3-background-color: rgb(241, 241, 241);
+
+$gridfaqpp-border: 1px solid #555;
+$gridfaqpp-padding: 5px;
+$gridfaqpp-background-color: rgb(184, 184, 184);
+$gridfaqpp-justify-content: center;
+
+
+$griditemfaqpp-border-style: groove;
+$griditemfaqpp-width: 99%;
+$griditemfaqpp-height: 98%;
+$griditemfaqpp-row-gap: 10px;
+$griditemfaqpp-column-gap: 15px;
+
+$gridfaq-principal-margin-top: 30px;
+$gridfaq-principal-margin-left: 50px;
+$gridfaq-principal-margin-right: 50px;
+$gridfaq-principal-margin-bottom: 30px;
+$gridfaq-principal-color: white;
+
+$tituloppfaq-font-size: 20px;
+$tituloppfaq-color: rgb(255, 255, 255);
+$tituloppfaq-padding: 20px;
+
+$titulopffaq-font-size: 20px;
+$titulopffaq-color: rgb(255, 255, 255);
+
+$pregunta-faq-font-weight: bold;
+$pregunta-faq-font-size: 18px;
+
+$rta-faq-font-size: 14px;
+$rta-faq-line-height: 26px;
+
+$introprod-background-color: rgb(175, 175, 175);
+$introprod-background-image: linear-gradient(to left, lightgrey, darkgray);
+$introprod-font-size: 24px;
+$introprod-color: white;
+
+$introtituloprod-font-size: 24px;
+$introtituloprod-color: white;
+
+$introparrafoprod-font-size: 16px;
+$introparrafoprod-color: white;
+
+$inicio-pf-background-color: #7d7d7d;
+$inicio-pf-background-image: linear-gradient(to left, lightgrey, black);
+
+$tarjetas-inicio-justify-content: space-between;
+$tarjetas-inicio-gap: 20px;
+$tarjetas-inicio-margin-bottom: 20px;
+
+$card-background-color: rgb(63, 63, 63);
+$card-border: 1px solid darkgray;
+$card-gap: 20px;
+$card-color: white;
+$card-font-size: 16px;
+
+$card-group-justify-content: space-between;
+
+$card-img-top-height: 200px;
+$card-img-top-object-fit: cover;
+
+$card-body-padding: 20px;
+$card-title-font-size: 16px;
+$card-text-font-size: 14px;

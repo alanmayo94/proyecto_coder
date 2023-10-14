@@ -1,0 +1,33 @@
+.logocabecera {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 56%;
+    width: 75px;
+    height: 75px;
+}
+
+.menudesordenado {
+    list-style: none;
+    text-align: right;
+    transition: color 2s;
+}
+
+.menu {
+    display: inline;
+    font-size: 13px;
+    font-family: $body-font-family;
+    font-weight: $body-font-weight;
+    color: $gray-light;
+    margin: 10px;
+    transition: $menu-transition;
+
+    &:hover {
+        color: $red-dark;
+        transform: scale(1.2);
+        padding: $menu-padding;
+        font-weight: $body-font-weight;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+}

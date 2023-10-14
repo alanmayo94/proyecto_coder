@@ -468,6 +468,19 @@ display:none;
 }
 
 
+
+
+
+@media (max-width: 480px) {
+    .titulointroprod {
+        font-size: 18px; 
+    }
+
+    .parrafointroprod {
+        font-size: 10px; 
+    }
+}
+
 .fotoseccion-prod{
     width: auto;
     height: auto;
@@ -487,7 +500,80 @@ display:none;
     background-image: linear-gradient(to left, lightgrey, black)
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 10px; 
+    }
+    h1 {font-size: 20px;}
+    .parrafointroprod, .parrafoprod {
+        font-size: 14px; 
+    }
 
+    .fotoseccion-prod {
+        width: auto;
+        height: auto; 
+    }
+
+    .logocabecera {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .menu {
+        font-size: 12px; 
+        margin: 5px; 
+    }
+    .fotocarrusel {
+        height: 200px; 
+        width: 40%; 
+        margin: 1%; 
+    }
+    h2{
+        font-size: 20px;}
+    h3{ 
+        font-size: 14px
+    }
+   
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 8px; 
+    }
+
+    h1 {
+        font-size: 16px; 
+    }
+    h2{
+        font-size: 8px;}
+    h3{ 
+        font-size:6px
+    }
+    .parrafointroprod, .parrafoprod {
+        font-size: 12px; 
+    }
+
+    .fotoseccion-prod {
+        width: auto;
+        height: auto; 
+    }
+
+    .logocabecera {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .menu {
+        font-size: 10px; 
+        margin: 3px; 
+    }
+
+    .fotocarrusel {
+        height: 150px; 
+        width: 40%; 
+        margin: 1%; 
+    }
+}
 
 
 /* Estilos para el contenedor de tarjetas */
@@ -514,7 +600,31 @@ display:none;
   }
   
 
+  @media (max-width: 767px) {
+    .card {
+      width: 100%;
+      margin-right: 0; 
+    }
+  }
+
+  .card a.btn {
+    background-color: black;
+    color: white; 
+    border: none; 
+  }
   
+  
+  .card a.btn:hover {
+    background-color: #b30000; 
+    color: white; 
+    border: none; 
+  }
+  
+  .card h5.card-title {
+    font-size: 20px; 
+    color: white; 
+  }
+
 
 footer {
     background-color: #fcfbfb; 
@@ -617,111 +727,3 @@ footer {
         text-align: center;
     }
 }
-@media (max-width: 480px) {
-    .titulointroprod {
-        font-size: 18px; 
-    }
-
-    .parrafointroprod {
-        font-size: 10px; 
-    }
-}
-@media (max-width: 768px) {
-    body {
-        font-size: 10px; 
-    }
-    h1 {font-size: 20px;}
-    .parrafointroprod, .parrafoprod {
-        font-size: 14px; 
-    }
-
-    .fotoseccion-prod {
-        width: auto;
-        height: auto; 
-    }
-
-    .logocabecera {
-        width: 50px; 
-        height: 50px;
-    }
-
-    .menu {
-        font-size: 12px; 
-        margin: 5px; 
-    }
-    .fotocarrusel {
-        height: 200px; 
-        width: 40%; 
-        margin: 1%; 
-    }
-    h2{
-        font-size: 20px;}
-    h3{ 
-        font-size: 14px
-    }
-   
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 8px; 
-    }
-
-    h1 {
-        font-size: 16px; 
-    }
-    h2{
-        font-size: 8px;}
-    h3{ 
-        font-size:6px
-    }
-    .parrafointroprod, .parrafoprod {
-        font-size: 12px; 
-    }
-
-    .fotoseccion-prod {
-        width: auto;
-        height: auto; 
-    }
-
-    .logocabecera {
-        width: 30px; 
-        height: 30px;
-    }
-
-    .menu {
-        font-size: 10px; 
-        margin: 3px; 
-    }
-
-    .fotocarrusel {
-        height: 150px; 
-        width: 40%; 
-        margin: 1%; 
-    }
-}
-
-@media (max-width: 767px) {
-    .card {
-      width: 100%;
-      margin-right: 0; 
-    }
-  }
-
-  .card a.btn {
-    background-color: black;
-    color: white; 
-    border: none; 
-  }
-  
-  
-  .card a.btn:hover {
-    background-color: #b30000; 
-    color: white; 
-    border: none; 
-  }
-  
-  .card h5.card-title {
-    font-size: 20px; 
-    color: white; 
-  }
