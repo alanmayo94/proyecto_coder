@@ -205,7 +205,7 @@ h1 {
     }
 
     .imagenintroprod {
-        width: 100%;
+        width: auto;
         height: auto;
         margin: 0 auto;
     }
@@ -570,3 +570,104 @@ h1 {
     height: 100%;
 }
 
+
+.introprod {
+    display: grid;
+    grid-template-areas:
+      "introtituloprod imagenintroprod"
+      "introparrafoprod imagenintroprod";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px auto;
+    margin: 10px;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(175, 175, 175);
+    background-image: linear-gradient(to left, lightgrey, darkgray);
+  
+    .introtituloprod {
+      grid-area: introtituloprod;
+      font-size: 24px;
+      color: white;
+  
+      @media (max-width: 768px) {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  
+    .introparrafoprod {
+      grid-area: introparrafoprod;
+      font-size: 16px;
+      color: white;
+      align-self: center;
+  
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  
+    .imagenintroprod {
+      grid-area: imagenintroprod;
+      justify-self: end;
+      align-self: end;
+      height: 100%;
+      width: 65%;
+      border-radius: 95%;
+  
+      @media (max-width: 768px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .introprod {
+    display: grid;
+    grid-template-areas:
+      "introtituloprod imagenintroprod"
+      "introparrafoprod imagenintroprod";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px auto;
+    margin: 10px;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(175, 175, 175);
+    background-image: linear-gradient(to left, lightgrey, darkgray);
+  
+    .introtituloprod {
+      grid-area: introtituloprod;
+      font-size: 24px;
+      color: white;
+  
+      @media (max-width: 768px) {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  
+    .introparrafoprod {
+      grid-area: introparrafoprod;
+      font-size: 16px;
+      color: white;
+      align-self: center;
+  
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  
+    .imagenintroprod {
+      grid-area: imagenintroprod;
+      justify-self: end;
+      align-self: end;
+      height: 100%;
+      width: 65%;
+      border-radius: 95%;
+  
+      @media (max-width: 768px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+  
