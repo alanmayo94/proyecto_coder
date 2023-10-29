@@ -695,4 +695,38 @@ h1 {
     width: 100%;
     margin: 0 auto;
   }
+
+  .error-container {
+    margin-top: 100px;
+}
+
+.error-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.error-message {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.error-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .error-container {
+      padding: 10px;
+  }
+
+  .error-message {
+      font-size: 24px;
+  }
+
+  .error-description {
+      font-size: 16px;
+  }
+}
 }/*# sourceMappingURL=styles.css.map */
