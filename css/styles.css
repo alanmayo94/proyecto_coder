@@ -63,7 +63,7 @@ footer .logo-redes-container img:last-child {
 
 body {
   font-size: 16px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times;
   font-weight: bold;
   color: black;
   background-color: rgb(252, 248, 248);
@@ -588,12 +588,12 @@ h1 {
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 24px;
   color: 20px;
 }
 
 .card-text {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .card-img {
