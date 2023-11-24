@@ -802,7 +802,7 @@ h1 {
   padding: 20px;
   border: rgb(204, 202, 202);
   background-color: rgb(63, 63, 63) !important;
-  background-image: linear-gradient(to left, lightgrey, darkgray);
+  background-image: linear-gradient(to left, rgb(63, 63, 63), rgb(58, 58, 58));
 
 }
 

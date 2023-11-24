@@ -252,7 +252,7 @@ display:none;
     padding: 20px;
     border: rgb(204, 202, 202);
     background-color: rgb(63, 63, 63) !important;
-    background-image: linear-gradient(to left, lightgrey, darkgray);
+    background-image: linear-gradient(to left, rgb(61, 61, 61), rgb(63, 63, 63));
 
 }
 
@@ -436,8 +436,8 @@ display:none;
     margin-top: 100px;
     margin-bottom: 100px;
     border: #cccccc inset 2px;
-    background-color: #7d7d7d;
-    background-image: linear-gradient(to right, lightgrey, black)
+    background-color: rgb(63, 63, 63);
+    background-image: linear-gradient(to right, rgb(63, 63, 63), rgb(39, 39, 39))
 }
 
 .titulointroprod{
