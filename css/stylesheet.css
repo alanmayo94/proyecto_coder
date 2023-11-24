@@ -179,7 +179,7 @@ align-items: center;
 .gridfaqpp, .gridfaqpf {
     border: 1px solid #555;
     padding: 5px;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(63, 63, 63);
     display: grid;
     width: 40%;
     justify-items: start;
@@ -251,8 +251,8 @@ display:none;
     gap: 10px;
     padding: 20px;
     border: rgb(204, 202, 202);
-    background-color: rgb(175, 175, 175);
-    background-image: linear-gradient(to left, lightgrey, darkgray);
+    background-color: rgb(63, 63, 63) !important;
+    background-image: linear-gradient(to left, rgb(61, 61, 61), rgb(63, 63, 63));
 
 }
 
@@ -347,7 +347,7 @@ display:none;
     border: 1px groove darkred;
     border-radius: 10%;
     margin: 50px;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(63, 63, 63);
     color: #ffffff;
     text-align: center;
 }
@@ -366,7 +366,7 @@ display:none;
     width:95%;
     height: 95%;
     text-align: center;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(63, 63, 63);
     color:#ffffff
 }
 
@@ -436,8 +436,8 @@ display:none;
     margin-top: 100px;
     margin-bottom: 100px;
     border: #cccccc inset 2px;
-    background-color: #7d7d7d;
-    background-image: linear-gradient(to right, lightgrey, black)
+    background-color: rgb(63, 63, 63);
+    background-image: linear-gradient(to right, rgb(63, 63, 63), rgb(39, 39, 39))
 }
 
 .titulointroprod{
@@ -454,7 +454,7 @@ display:none;
     color: white;
     height: fit-content;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
  }
  .titulointroprod {
@@ -463,7 +463,7 @@ display:none;
 }
 
 .parrafointroprod {
-    font-size: 16px; 
+    font-size: 18px; 
     color: white; 
 }
 
@@ -619,11 +619,11 @@ footer {
 }
 @media (max-width: 480px) {
     .titulointroprod {
-        font-size: 18px; 
+        font-size: 20px; 
     }
 
     .parrafointroprod {
-        font-size: 10px; 
+        font-size: 16px; 
     }
 }
 @media (max-width: 768px) {
@@ -632,7 +632,7 @@ footer {
     }
     h1 {font-size: 20px;}
     .parrafointroprod, .parrafoprod {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     .fotoseccion-prod {
@@ -724,4 +724,21 @@ footer {
   .card h5.card-title {
     font-size: 20px; 
     color: white; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .caso {
+      margin: 20px;
+      font-size: 16px; 
+    }
+  }
+
+  .introaform{
+    font-size: 18px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .introaform {
+      font-size: 15px;
+    }
   }
