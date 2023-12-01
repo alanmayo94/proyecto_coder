@@ -221,6 +221,7 @@ align-items: center;
 
 #listarequisitos{
     list-style: none;
+    color:#555
 }
 
 .pregunta-faq{
@@ -236,7 +237,7 @@ display:none;
 
 }
 
-.pregunta-faq:active + .rta-faq {
+.pregunta-faq:hover + .rta-faq {
     display: block;
 }
 
@@ -742,3 +743,162 @@ footer {
       font-size: 15px;
     }
   }
+
+  /* Estilos para las secciones de preguntas frecuentes */
+.gridfaqpp, .gridfaqpf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .griditemfaqpp, .griditempf {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .griditemfaqpp:hover, .griditempf:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pregunta-faq {
+    color: #555; /* Color del texto de las preguntas */
+  }
+  
+  .rta-faq {
+    color: #555; /* Color del texto de las respuestas */
+  }
+
+  /* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .gridfaqpp, .gridfaqpf {
+      grid-template-columns: 1fr;
+    }
+
+    .griditemfaqpp, .griditempf {
+        width: 100%;
+      }
+    }
+    #listarequisitos {
+        display: none;
+      }
+      
+      .griditemfaqpp:hover #listarequisitos {
+        display: block;
+      }
+      .grillapp {
+        display: grid;
+        grid-template-areas: 
+            "subgrillapp1 subgrillapp2 subgrilla3";
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin: 40px;
+        padding: 20px;
+        background-color: rgb(255, 253, 253);
+        border: 1px dashed lightgrey;
+    }
+    
+    .subgrillapp {
+        font-size: 16px;
+        color: #666;
+        text-align: center;
+    }
+    
+    .subgrillapp1 { grid-area: subgrillapp1; }
+    .subgrillapp2 { grid-area: subgrillapp2; }
+    .subgrillapp3 { grid-area: subgrilla3; }
+    
+    /* Estilos para tablets */
+    @media screen and (max-width: 768px) {
+        .grillapp {
+            grid-template-areas: 
+                "subgrillapp1"
+                "subgrillapp2"
+                "subgrilla3";
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    /* Estilos para dispositivos móviles */
+    @media screen and (max-width: 480px) {
+        .grillapp {
+            grid-template-areas: 
+                "subgrillapp1"
+                "subgrillapp2"
+                "subgrilla3";
+            grid-template-columns: 1fr;
+        }
+    }
+
+    /* ... Otros estilos ... */
+
+.grillapp {
+    display: grid;
+    grid-template-areas: 
+        "subgrillapp1 subgrillapp2 subgrilla3";
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(255, 253, 253);
+    border: 1px dashed lightgrey;
+}
+
+.subgrillapp {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+.subgrillapp1 { grid-area: subgrillapp1; }
+.subgrillapp2 { grid-area: subgrillapp2; }
+.subgrillapp3 { grid-area: subgrilla3; }
+
+/* Estilos para tablets */
+@media screen and (max-width: 768px) {
+    .grillapp {
+        grid-template-areas: 
+            "subgrillapp1"
+            "subgrillapp2"
+            "subgrilla3";
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    .grillapp {
+        grid-template-areas: 
+            "subgrillapp1"
+            "subgrillapp2"
+            "subgrilla3";
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Otros estilos... */
+/* ... Otros estilos ... */
+
+.subgrillapp {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    max-width: 100%; /* Ajusta el tamaño máximo del contenedor */
+    margin: 0 auto; /* Centra el contenido en el contenedor */
+}
+
+.imggrillapp {
+    max-width: 100%; /* Hace que la imagen sea completamente responsiva */
+    height: auto; /* Evita que la imagen se estire */
+    border-radius: 10px; /* Añade bordes redondeados si es necesario */
+}
+
+/* ... Otros estilos ... */
+.imggrillapp {
+    max-width: 100%;
+    max-height: 200px; /* Establece el tamaño máximo de altura según tus necesidades */
+    height: auto;
+    border-radius: 10px;
+}

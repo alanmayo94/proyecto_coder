@@ -63,11 +63,7 @@ footer .logo-redes-container img:last-child {
 
 body {
   font-size: 16px;
-<<<<<<< HEAD
-  font-family: "Times New Roman", Times;
-=======
   font-family: 'Courier New', Courier, monospace;
->>>>>>> feature/entregafinal
   font-weight: bold;
   color: black;
   background-color: rgb(252, 248, 248);
@@ -857,3 +853,15 @@ h1 {
   }
 }
 
+/* Estilo para el carrusel */
+.carrusel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+/* Estilo para las imágenes del carrusel */
+.fotocarrusel {
+  flex: 0 0 auto;
+  width: 18%;
+}
