@@ -246,6 +246,16 @@ h1 {
   }
 }
 
+/* Ajustes para Nosotros en dispositivos móviles */
+@media (max-width: 480px) {
+  .nosotros1,
+  .nosotros2 {
+    flex-basis: calc(100% - 40px); /* Ajusta el ancho al 100% del contenedor */
+    margin-left: 20px; /* Agrega un pequeño margen izquierdo */
+    margin-right: 20px; /* Agrega un pequeño margen derecho */
+  }
+}
+
 .tituloaside {
   font-weight: bold;
   border: thin;
