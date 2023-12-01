@@ -1060,4 +1060,57 @@ body {
     .navbar-nav .nav-link {
       font-size: 18px;
     }
+  }/* Estilos generales para tamaños de texto en pantallas más grandes */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
   }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  /* Estilos para dispositivos móviles (hasta 767px) */
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2, h3 {
+      font-size: 20px;
+    }
+  
+    p, ul, li {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para tabletas (768px a 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2, h3 {
+      font-size: 24px;
+    }
+  
+    p, ul, li {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos específicos para algunas clases */
+  .tituloppfaq {
+    font-size: 32px; /* Ajusta el tamaño del título específico */
+  }
+  
+  .pregunta-faq {
+    font-weight: bold; /* Hace que las preguntas sean más llamativas */
+  }
+  
+  .rta-faq {
+    margin-bottom: 10px; /* Añade espacio después de las respuestas */
+  }
+  
