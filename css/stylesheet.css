@@ -1087,7 +1087,8 @@ body {
 
     .griditemfaqpp, .griditempf {
         padding: 10px; /* Añade un espacio interno para evitar desbordamientos */
-      }
+        max-width: 100%; /* Evita que el contenido exceda el ancho del contenedor padre */
+        box-sizing: border-box; /* Incluye el padding en el cálculo del ancho total */ }
   }
   
   /* Estilos para tabletas (768px a 991px) */
@@ -1105,7 +1106,9 @@ body {
     }
     .griditemfaqpp, .griditempf {
         padding: 15px; /* Ajusta el espacio interno */
-      }
+        max-width: 100%; /* Evita que el contenido exceda el ancho del contenedor padre */
+        box-sizing: border-box; /* Incluye el padding en el cálculo del ancho total */
+    }
   }
   
   /* Estilos específicos para algunas clases */
