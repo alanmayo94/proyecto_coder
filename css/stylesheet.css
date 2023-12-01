@@ -1084,6 +1084,10 @@ body {
     p, ul, li {
       font-size: 14px;
     }
+
+    .griditemfaqpp, .griditempf {
+        padding: 10px; /* Añade un espacio interno para evitar desbordamientos */
+      }
   }
   
   /* Estilos para tabletas (768px a 991px) */
@@ -1099,6 +1103,9 @@ body {
     p, ul, li {
       font-size: 16px;
     }
+    .griditemfaqpp, .griditempf {
+        padding: 15px; /* Ajusta el espacio interno */
+      }
   }
   
   /* Estilos específicos para algunas clases */
