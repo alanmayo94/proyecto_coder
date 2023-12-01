@@ -1029,3 +1029,145 @@ h1 {
     max-width: 60%; /* Ajusta el ancho máximo para dispositivos móviles */
   }
 }
+
+.logocabecera {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos específicos para tabletas */
+@media (max-width: 768px) {
+  .logocabecera {
+    max-width: 80%;
+  }
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 480px) {
+  .logocabecera {
+    max-width: 60%;
+    width: 100%;
+    margin: 10px auto; /* Añade un margen para mejorar la apariencia en móviles */
+  }
+}
+.navbar-nav .nav-link {
+  font-size: 18px; 
+  color: #333
+}
+/* Estilos generales */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(252, 248, 248);
+}
+
+/* Logo en la barra de navegación */
+.logocabecera {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.navbar-toggler {
+  margin-left: 0;
+}
+
+/* Enlaces en la barra de navegación */
+.navbar-nav {
+  flex-direction: row;
+  text-align: left;
+}
+
+.navbar-nav .nav-item {
+  margin-bottom: 0;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Estilos para dispositivos móviles (hasta 767px) */
+@media (max-width: 767px) {
+  .logocabecera {
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 8px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-bottom: 0;
+  }
+}
+
+/* Estilos para tabletas (768px a 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logocabecera {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar-collapse {
+    margin-top: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para dispositivos de escritorio (más de 991px) */
+@media (min-width: 992px) {
+  .logocabecera {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .navbar-collapse {
+    margin-top: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+}
