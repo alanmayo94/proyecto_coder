@@ -902,3 +902,24 @@ footer {
     height: auto;
     border-radius: 10px;
 }
+.logocabecera {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ajusta el ancho máximo del logotipo al ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+  
+  /* Estilos específicos para tabletas */
+  @media (max-width: 768px) {
+    .logocabecera {
+      max-width: 80%; /* Ajusta el ancho máximo para tabletas */
+    }
+  }
+  
+  /* Estilos específicos para dispositivos móviles */
+  @media (max-width: 480px) {
+    .logocabecera {
+      max-width: 60%; /* Ajusta el ancho máximo para dispositivos móviles */
+    }
+  }
+  
