@@ -181,6 +181,37 @@ h1 {
   color: white;
 }
 
+/* Estilos para los títulos Nosotros en Desktop */
+.titulonosotros1,
+.titulonosotros2,
+.titulonosotros3 {
+  border: 1px solid darkred;
+  border-radius: 15%;
+  background-color: rgb(197, 3, 3);
+  font-weight: bold;
+  color: white;
+}
+
+/* Ajustes para títulos Nosotros en tablets */
+@media (max-width: 768px) {
+  .titulonosotros1,
+  .titulonosotros2,
+  .titulonosotros3 {
+    font-size: 20px; /* Tamaño de fuente para tablets */
+    padding: 12px; /* Ajuste de relleno para mejorar el aspecto */
+  }
+}
+
+/* Ajustes para títulos Nosotros en dispositivos móviles */
+@media (max-width: 480px) {
+  .titulonosotros1,
+  .titulonosotros2,
+  .titulonosotros3 {
+    font-size: 18px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    padding: 10px; /* Ajuste de relleno para mejorar el aspecto */
+  }
+}
+
 /* Estilos para la ubicación */
 .ubicacion {
   display: flex;
