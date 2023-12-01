@@ -142,6 +142,109 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
 }
+/* Contenedores de Nosotros */
+.nosotros1, .nosotros2 {
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 10%;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: rgb(241, 241, 241);
+}
+
+/* Alineación de Nosotros 1 y Nosotros 2 */
+.nosotros1.nosotros1, .nosotros2.nosotros1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.nosotros1.nosotros2, .nosotros2.nosotros2 {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.nosotros3 {
+  border: 1px solid rgb(85, 85, 85);
+  flex-basis: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: rgb(241, 241, 241);
+}
+
+/* Estilos para los títulos de Nosotros */
+.titulonosotros1, .titulonosotros2, .titulonosotros3 {
+  border: 1px solid darkred;
+  border-radius: 15%;
+  background-color: rgb(197, 3, 3);
+  font-weight: bold;
+  color: white;
+}
+
+/* Estilos para la ubicación */
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid darkred;
+  border-radius: 10%;
+  margin: 20px;
+  overflow: hidden;
+}
+
+/* Estilos para el detalle de Nosotros */
+#detallenosotros {
+  background-color: rgb(241, 241, 241);
+  border: 1px groove;
+  border-radius: 12%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Media Queries para Tablet */
+@media (max-width: 768px) {
+  .nosotros1, .nosotros2, .nosotros3 {
+    padding: 15px;
+  }
+}
+
+/* Media Queries para Móviles */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .nosotros1, .nosotros2, .nosotros3 {
+    padding: 10px;
+  }
+}
+
+/* Estilos para el párrafo de Nosotros */
+.parrafonosotros {
+  font-size: 14px; /* Tamaño de fuente base para el párrafo */
+
+  /* Altura de línea para mejorar la legibilidad */
+  line-height: 1.5;
+
+  /* Justificar el texto */
+  text-align: justify;
+}
+
+/* Media Queries para Tablet */
+@media (max-width: 768px) {
+  .parrafonosotros {
+    font-size: 14px; /* Tamaño de fuente para párrafos en tablets */
+  }
+}
+
+/* Media Queries para Móviles */
+@media (max-width: 480px) {
+  .parrafonosotros {
+    font-size: 12px; /* Tamaño de fuente para párrafos en móviles */
+  }
+}
 
 .tituloaside {
   font-weight: bold;
