@@ -1124,3 +1124,232 @@ body {
     margin-bottom: 10px; /* Añade espacio después de las respuestas */
   }
   
+  /* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(252, 248, 248);
+    line-height: 1.5;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-toggler {
+    margin-left: 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    text-align: left;
+}
+
+.navbar-nav .nav-item {
+    margin-bottom: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Logo en la barra de navegación */
+.logocabecera {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos específicos para tabletas */
+@media (max-width: 768px) {
+    .logocabecera {
+        max-width: 80%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3 {
+        font-size: 18px;
+    }
+
+    p, ul, li {
+        font-size: 14px;
+    }
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 480px) {
+    .logocabecera {
+        max-width: 60%;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h2, h3 {
+        font-size: 14px;
+    }
+
+    p, ul, li {
+        font-size: 12px;
+    }
+}
+
+/* Tarjetas */
+.card {
+    background-color: rgb(63, 63, 63);
+    border: 1px solid darkgray;
+    width: calc(50% - 10px);
+    padding: 20px;
+    gap: 20px;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+}
+
+/* Enlaces en tarjetas */
+.card a.btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.card a.btn:hover {
+    background-color: #b30000;
+    color: white;
+    border: none;
+}
+
+/* Títulos en tarjetas */
+.card h5.card-title {
+    font-size: 20px;
+}
+
+/* Texto en tarjetas */
+.card-text {
+    font-size: 14px;
+}
+
+/* Secciones de preguntas frecuentes */
+.gridfaqpp, .gridfaqpf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.griditemfaqpp, .griditempf {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.griditemfaqpp:hover, .griditempf:hover {
+    transform: translateY(-5px);
+}
+
+/* Preguntas en preguntas frecuentes */
+.pregunta-faq {
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Respuestas en preguntas frecuentes */
+.rta-faq {
+    font-size: 14px;
+    line-height: 26px;
+    display: none;
+}
+
+.pregunta-faq:hover + .rta-faq {
+    display: block;
+}
+
+/* Estilos específicos para algunas clases */
+.tituloppfaq {
+    font-size: 32px;
+}
+
+/* Estilos para la sección de inicio */
+#inicio-prestamos,
+#inicio-pf {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titulointroprod,
+.parrafointroprod,
+.titulointroprod,
+.parrafointroprod {
+    font-size: 18px;
+}
+
+.fotoseccion-prod {
+    width: auto;
+    height: auto;
+    border-radius: 30%;
+}
+
+/* Contenedor de tarjetas */
+.tarjetas-inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Imágenes en tarjetas */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Pie de página */
+footer {
+    background-color: #fcfbfb;
+    color: rgb(41, 40, 40);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 1px solid #555;
+}
+
+#legal {
+    font-size: 15px;
+}
+
+#contacto a {
+    color: white;
+}
