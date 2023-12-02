@@ -1413,3 +1413,81 @@ footer {
       margin: 0 8px; /* Ajusta el espacio alrededor del logo de Instagram en dispositivos móviles */
     }
   }
+
+  /* Estilos generales para las grillas y sus hijos */
+.gridfaqpp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .griditemfaqpp {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .gridfaqpf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .griditempf {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos específicos para dispositivos móviles */
+  @media only screen and (max-width: 767px) {
+    .gridfaqpp,
+    .gridfaqpf {
+      grid-template-columns: 1fr;
+    }
+  
+    .griditemfaqpp,
+    .griditempf {
+      margin-bottom: 20px;
+    }
+  
+    /* Control de desbordamiento del texto */
+    .griditemfaqpp p,
+    .griditempf p {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  /* Estilos generales para las grillas y sus hijos */
+#gridfaq-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .gridfaqpp,
+  .gridfaqpf {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+  
+  .griditemfaqpp,
+  .griditempf {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos específicos para dispositivos móviles */
+  @media only screen and (max-width: 767px) {
+    .gridfaqpp,
+    .gridfaqpf {
+      flex: 1 1 calc(100% - 20px);
+      max-width: calc(100% - 20px);
+    }
+  }
+  
+  
